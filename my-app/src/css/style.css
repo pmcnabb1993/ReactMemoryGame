@@ -1,0 +1,151 @@
+p {
+  color: #FE0002; }
+h2 {
+  color:  #FE0002;
+}
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column; }
+
+/* HEADER */
+.header {
+  background-color: #FE0002;
+  color: rgb(255, 255, 255);
+  text-shadow: 0px 0px 10px rgb(0, 0, 0);
+  padding: 2em;
+  text-align: center; }
+  .header h1 {
+    font-family: 'Bangers';
+    font-size: 2em; }
+    @media screen and (min-width: 768px) {
+      .header h1 {
+        font-size: 4em; } }
+    .header h1 span {
+      color: #0001FC;
+      text-shadow: 0px 0px 10px rgb(255, 255, 255); }
+
+/* GAME (DIV HOLDS INST AND GAMEBOARD */
+.game {
+  background-color:rgb(255, 255, 255);
+  padding: 1em;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+/* INSTRUCTIONS */
+.instructions {
+  display: flex;
+  flex-direction: column;
+  width: 18.8em; }
+  @media (min-width: 768px) {
+    .instructions {
+      width: 27em; } }
+  @media (min-width: 980px) {
+    .instructions {
+      width: 36em; } }
+  .instructions h2 {
+    font-family: "Alegreya", serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 0.25em; }
+    @media screen and (min-width: 768px) {
+      .instructions h2 {
+        font-size: 2em;
+        margin-bottom: 0.5em; } }
+  .instructions p {
+    font-family: "PT Sans", sans-serif;
+    font-size: 1em;
+    line-height: 1.25em; }
+    @media screen and (min-width: 768px) {
+      .instructions p {
+        font-size: 1.25em;
+        line-height: 1.5em; } }
+
+.scoresMessages {
+  display: flex;
+  flex-direction: column;
+  width: 18.8em; }
+  .scoresMessages h2 {
+    font-size: 1em; }
+  @media (min-width: 768px) {
+    .scoresMessages {
+      font-size: 1.5em;
+      width: 18em; } }
+  @media (min-width: 980px) {
+    .scoresMessages {
+      font-size: 1.5em;
+      width: 24em; } }
+
+
+.scoresDiv {
+  display: flex; }
+
+.scores {
+  margin-right: 2em;
+  color: #FE0002;
+  font-family: "Fontdiner Swanky", "Alegreya", sans-serif;
+  font-size: 1.5em; }
+
+/*GAMEBOARD*/
+.gameBoard {
+  padding: 0.5em;
+  background-color: #FE0002;
+  border: 0.2em solid rgb(187, 0, 0);
+  border-radius: 0.2em; }
+
+.cardGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  padding: 5px; }
+
+/*CARD & IMAGE FRAME */
+.card {
+  background-color: rgb(147, 251, 255);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.2em;
+  background-size: cover;
+    background-position: 50%;
+    height: 170px;
+    width: 170px;
+    margin: 8px 25px;
+    border: 5px solid #f1f1f1;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(0,0,0,.23);
+    box-shadow: 0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(0,0,0,.23);
+    cursor: pointer;
+ }
+
+.img-frame {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 1em; }
+  .img-frame img {
+    width: 6em; }
+    @media screen and (min-width: 768px) {
+      .img-frame img {
+        width: 5em; } }
+    @media screen and (min-width: 980px) {
+      .img-frame img {
+        width: 7.5em; } }
+
+/*FOOTER*/
+footer {
+  background-color: #FE0002;
+  display: flex;
+  justify-content: center;
+  padding: 1em 0.2em; }
+  footer p {
+    color: #fcfcfc;
+    font-family: "Alegreya";
+    font-size: 0.5em; }
+    @media screen and (min-width: 768px) {
+      footer p {
+        font-size: 1.25em; } }

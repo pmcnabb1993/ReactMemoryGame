@@ -1,8 +1,7 @@
 import React, { Component, Fragment } from "react";
-import messages from "../../messages.js";
 import { sample } from "lodash";
 import Scores from "./Scores";
-import Grid from "./Grid";
+import CardGrid from "./Grid";
 
 
 class GameBoard extends Component {

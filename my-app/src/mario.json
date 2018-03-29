@@ -1,0 +1,112 @@
+[
+    {
+      "id": 1,
+      "name": "1upshroom",
+      "image": "./images/1upshroom.png"
+    },
+    {
+      "id": 2,
+      "name": "bannana",
+      "image": "./images/bannana.png"
+    },
+    {
+      "id": 3,
+      "name": "block",
+      "image": "./images/block.png"
+    },
+    {
+      "id": 4,
+      "name": "blueshell",
+      "image": "./images/blueshell.png"
+    },
+    {
+      "id": 5,
+      "name": "bomb",
+      "image": "./images/bomb.png"
+    },
+    {
+      "id": 6,
+      "name": "boo",
+      "image": "./images/boo.png"
+    },
+    {
+      "id": 7,
+      "name": "boomerang",
+      "image": "./images/boomerang.png"
+    },
+    {
+      "id": 8,
+      "name": "bullet",
+      "image": "./images/bullet.png"
+    },
+    {
+      "id": 9,
+      "name": "coin",
+      "image": "./images/coin.png"
+    },
+    {
+      "id": 10,
+      "name": "egg",
+      "image": "./images/egg.png"
+    },
+    {
+      "id": 11,
+      "name": "feather",
+      "image": "./images/feather.png"
+    },
+    {
+      "id": 12,
+      "name": "fire-flower",
+      "image": "./images/fire-flower.png"
+    },
+    {
+        "id": 13,
+        "name": "greenshell",
+        "image": "./images/greenshell.png"
+      },
+      {
+        "id": 14,
+        "name": "iceflower",
+        "image": "./images/iceflower.png"
+      },
+      {
+        "id": 15,
+        "name": "lightning",
+        "image": "./images/lightning.png"
+      },
+      {
+        "id": 16,
+        "name": "redshell",
+        "image": "./images/redshell.png"
+      },
+      {
+        "id": 17,
+        "name": "redshroom",
+        "image": "./images/redshroom.png"
+      },
+      {
+        "id": 18,
+        "name": "singlered",
+        "image": "./images/singlered.png"
+      },
+      {
+        "id": 19,
+        "name": "squid",
+        "image": "./images/squid.png"
+      },
+      {
+        "id": 20,
+        "name": "star",
+        "image": "./images/star.png"
+      },
+      {
+        "id": 21,
+        "name": "heart",
+        "image": "./images/heart.png"
+      },
+      {
+        "id": 22,
+        "name": "redcoin",
+        "image": "./images/redcoin.png"
+      }
+  ]

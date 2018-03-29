@@ -3,7 +3,7 @@ import { cloneDeep } from "lodash";
 import MarioCard from "./MarioCard.js";
 
 //json array for the mario cards and images 
-import marioItem from "../../mario.json";
+import marioItem from "../mario.json";
 
 class CardList extends Component {
     constructor(props) {
@@ -45,7 +45,7 @@ class CardList extends Component {
         }
         this.setState({
             renderedCards: shuffledCards
-            .splice(0, 4)
+            .splice(0, 6)
             .map( mario => (
                 <MarioCard
                   validatePick={this.validatePick}

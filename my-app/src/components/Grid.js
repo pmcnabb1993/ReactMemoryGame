@@ -45,7 +45,7 @@ class CardList extends Component {
         }
         this.setState({
             renderedCards: shuffledCards
-            .splice(0, 6)
+            .splice(0, 20)
             .map( mario => (
                 <MarioCard
                   validatePick={this.validatePick}

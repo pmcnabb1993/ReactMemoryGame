@@ -89,24 +89,15 @@
         "name": "singlered",
         "image": "./images/singlered.png"
       },
+      
       {
         "id": 19,
-        "name": "squid",
-        "image": "./images/squid.png"
-      },
-      {
-        "id": 20,
         "name": "star",
         "image": "./images/star.png"
       },
       {
-        "id": 21,
+        "id": 20,
         "name": "heart",
         "image": "./images/heart.png"
-      },
-      {
-        "id": 22,
-        "name": "redcoin",
-        "image": "./images/redcoin.png"
       }
   ]
